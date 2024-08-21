@@ -3,7 +3,6 @@ from src.ml_project.exception import CustomException
 import sys
 from src.ml_project.components.data_ingestion import DataIngestion
 from src.ml_project.components.data_ingestion import DataIngestionConfig
-from src.ml_project.utlis import read_sql_data
 
 if __name__ == "__main__":
     logging.info("the execution has started.")
