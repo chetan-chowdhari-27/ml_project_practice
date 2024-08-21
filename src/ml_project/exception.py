@@ -1,7 +1,6 @@
 import sys
 from src.ml_project.logger import  logging
 
-
 def error_message_detail(error, error_details:sys):
     _,_,exc_tb = error_details.exc_info()
     file_name = exc_tb.tb_frame.f_code.co_filename
